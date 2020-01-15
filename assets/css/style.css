@@ -9,6 +9,7 @@ body {
     width: 130px;
     background: #222;
     border: 5px solid #222;
+    font-size: 20px;
 }
 
 .profile-pic {
@@ -28,12 +29,21 @@ body {
 
 /* resume */
 
+.title {
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+}
+
 .resume-container {
     margin-bottom: 50px;
     max-width: 100%;
     border: 1px solid #fff;
-    margin-top: -100px;
+    margin-top: 50px;
     border-radius: 8px;
+    font-family: "Permanent Marker", cursive;
+    font-family: "Kalam", cursive;
+    font-size: 18px;
+    display: none;
 }
 
 .content {
@@ -63,9 +73,17 @@ body {
 
 /* portfolio */
 
+.w3-text-light-grey {
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+}
+
 #photos {
     max-width: 100%;
     padding-left: 100px;
+    font-family: "Permanent Marker", cursive;
+    font-family: "Kalam", cursive;
+    font-family: "Merienda One", cursive;
 }
 
 #transform {
@@ -74,15 +92,15 @@ body {
     border: 1px solid #fff;
     padding: 10px;
     border-radius: 6px;
+    background-color: black;
+    color: #fff;
 }
 
 #transform:hover {
     transform: scale(1.9);
-    border: 1px solid black;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 8px;
+    background-color: #fff;
+    color: black;
+    opacity: 0.8;
 }
 
 .w3-row {
@@ -124,10 +142,10 @@ body {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-}
-
-.resume-container {
-    display: none;
+    margin-top: 50px;
+    font-family: "Permanent Marker", cursive;
+    font-family: "Kalam", cursive;
+    font-family: "Merienda One", cursive;
 }
 
 .w3-input {
@@ -138,6 +156,9 @@ body {
 .w3-button {
     border-radius: 6px;
     transition: transform 0.2s;
+    font-family: "Permanent Marker", cursive;
+    font-family: "Kalam", cursive;
+    font-family: "Merienda One", cursive;
 }
 
 .w3-button:hover {
@@ -149,15 +170,29 @@ body {
 
 .w3-jumbo {
     margin-top: 50px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.full {
+    font-family: "Permanent Marker", cursive;
+    font-size: 17px;
 }
 
 #about {
     margin-top: 60px;
+    font-family: "Permanent Marker", cursive;
+    font-family: "Kalam", cursive;
+    font-family: "Merienda One", cursive;
 }
 
 .about-me {
     line-height: 2rem;
-    font-size: 17px;
+    font-size: 19px;
+}
+
+.aboutMe {
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
 }
 
 
@@ -211,10 +246,12 @@ a:hover {
 
 .connect {
     margin-bottom: 20px;
+    font-family: "Permanent Marker", cursive;
 }
 
 #footer {
     text-align: center;
+    font-family: "Permanent Marker", cursive;
 }
 
 .copy {}
