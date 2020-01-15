@@ -1,0 +1,232 @@
+body {
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+
+.w3-sidebar {
+    width: 130px;
+    background: #222;
+    border: 5px solid #222;
+}
+
+.profile-pic {
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+#main {
+    margin-left: 130px;
+    max-width: 100%;
+}
+
+
+/* resume */
+
+.resume-container {
+    margin-bottom: 50px;
+    max-width: 100%;
+    border: 1px solid #fff;
+    margin-top: -100px;
+    border-radius: 8px;
+}
+
+.content {
+    max-width: 90%;
+    margin-left: 60px;
+    padding-bottom: 20px;
+}
+
+#resume {
+    position: relative;
+    left: 2%;
+    transition: transform 0.2s;
+}
+
+#resume:hover {
+    transform: scale(1.1);
+}
+
+.work {
+    text-align: center;
+}
+
+.gw {
+    line-height: 2rem;
+}
+
+
+/* portfolio */
+
+#photos {
+    max-width: 100%;
+    padding-left: 100px;
+}
+
+#transform {
+    transition: transform 0.2s;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#transform:hover {
+    transform: scale(1.9);
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.w3-row {
+    padding-bottom: 10px;
+}
+
+.w3-container {
+    padding-bottom: 15px;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.w3-third {
+    margin-left: -15px;
+}
+
+.w3-hover-opacity {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    max-width: 300px;
+}
+
+.w3-hover-opacity:hover {
+    transform: scale(1.1);
+}
+
+
+/* contact*/
+
+#contact {
+    background-image: url("https://c.wallhere.com/photos/9e/73/computer_keyboards-1150906.jpg!d");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    max-width: 100%;
+    padding-left: 100px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.resume-container {
+    display: none;
+}
+
+.w3-input {
+    max-width: 80%;
+    border-radius: 6px;
+}
+
+.w3-button {
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+.w3-button:hover {
+    transform: scale(1.1);
+}
+
+
+/* about */
+
+.w3-jumbo {
+    margin-top: 50px;
+}
+
+#about {
+    margin-top: 60px;
+}
+
+.about-me {
+    line-height: 2rem;
+    font-size: 17px;
+}
+
+
+/* nav bar */
+
+a {
+    transition: transform 0.2s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+
+/* home */
+
+#masthead {
+    background: linear-gradient( to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/apple-laptop-notebook-office-39284.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    max-width: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+/* footer font awesome */
+
+.fa-instagram {
+    padding-left: 20px;
+}
+
+.fa-instagram:hover {
+    opacity: 0.2;
+}
+
+.fa-linkedin {
+    padding-left: 20px;
+}
+
+.fa-linkedin:hover {
+    opacity: 0.2;
+}
+
+.fa-github:hover {
+    opacity: 0.2;
+}
+
+.connect {
+    margin-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.copy {}
+
+
+/* media queries*/
+
+
+/* Remove margins from "page content" on small screens */
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0;
+    }
+}
