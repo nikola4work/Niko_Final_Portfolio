@@ -65,6 +65,11 @@ body {
     transform: scale(1.1);
 }
 
+#resumepdf {
+    position: relative;
+    left: 17%;
+}
+
 .work {
     text-align: center;
 }
@@ -162,6 +167,7 @@ body {
     font-family: "Permanent Marker", cursive;
     font-family: "Kalam", cursive;
     font-family: "Merienda One", cursive;
+    outline: none;
 }
 
 .w3-button:hover {
