@@ -10,6 +10,7 @@ body {
     background: #222;
     border: 5px solid #222;
     font-size: 20px;
+    overflow: hidden;
 }
 
 .profile-pic {
@@ -87,6 +88,12 @@ body {
 }
 
 #photos {
+    background-image: url("../images/Image-bcg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    max-width: 100%;
     max-width: 100%;
     padding-left: 100px;
     font-family: "Permanent Marker", cursive;
@@ -126,7 +133,7 @@ body {
 }
 
 .w3-hover-opacity {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 8px;
     transition: transform 0.2s;
     max-width: 300px;
@@ -150,7 +157,6 @@ body {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    margin-top: 50px;
     font-family: "Permanent Marker", cursive;
     font-family: "Kalam", cursive;
     font-family: "Merienda One", cursive;
