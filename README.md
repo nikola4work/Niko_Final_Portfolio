@@ -14,9 +14,10 @@ The web page contains :
 * links to GitHub repo, LinkedIn account, and Instagram
 
 
-<img src="https://github.com/nikola4work/Niko-ThemePortfolio/blob/master/assets/images/1.png" width="400px" height="300px" />
-<img src="https://github.com/nikola4work/Niko-ThemePortfolio/blob/master/assets/images/3.png" width="400px" height="300px"/>
-<img src="https://github.com/nikola4work/Niko-ThemePortfolio/blob/master/assets/images/2.png" width="400px" height="300px"/>
+## Live Preview
+
+
+<img src="https://github.com/nikola4work/Niko-ThemePortfolio/blob/master/gif.gif">
 
 
 
@@ -24,7 +25,7 @@ The web page contains :
 ## Setup/Installation Requirements
 
 * Clone this repository to your local machine if you wish to edit
-* For live preview navigate to the https://nikola4work.github.io/Niko-ThemePortfolio/
+* Direct link to site https://nikola4work.github.io/Niko-ThemePortfolio/
 
 
 
