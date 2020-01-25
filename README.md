@@ -10,7 +10,9 @@ The web page contains :
  * header with my name 
  * section about me text
 * section showcasing my recent work
-* contact  information
+* link to review my resume
+* option to dowdownload resume
+* active contact form
 * links to GitHub repo, LinkedIn account, and Instagram
 
 
