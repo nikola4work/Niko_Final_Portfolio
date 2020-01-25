@@ -17,7 +17,7 @@ The web page contains :
 ## Live Preview
 
 
-<img src="https://github.com/nikola4work/Niko-ThemePortfolio/blob/master/gif.gif">
+<img src="https://github.com/nikola4work/Niko-ThemePortfolio/blob/master/assets/images/gif.gif">
 
 
 
