@@ -86,7 +86,7 @@ body {
 }
 
 #photos {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Image-bcg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/images/Image-bcg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -145,7 +145,7 @@ body {
 /* contact*/
 
 #contact {
-    background-image: url("https://c.wallhere.com/photos/9e/73/computer_keyboards-1150906.jpg!d");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("https://c.wallhere.com/photos/9e/73/computer_keyboards-1150906.jpg!d");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -182,7 +182,7 @@ body {
 /* about */
 
 .w3-jumbo {
-    margin-top: 50px;
+    margin-top: 20px;
     font-family: "Permanent Marker", cursive;
 }
 
@@ -192,7 +192,6 @@ body {
 }
 
 #about {
-    margin-top: 60px;
     font-family: "Permanent Marker", cursive;
     font-family: "Kalam", cursive;
     font-family: "Merienda One", cursive;
@@ -223,15 +222,12 @@ a:hover {
 /* home */
 
 #masthead {
-    background: linear-gradient( to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/apple-laptop-notebook-office-39284.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/apple-laptop-notebook-office-39284.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     max-width: 100%;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 
@@ -267,7 +263,12 @@ a:hover {
     font-family: "Permanent Marker", cursive;
 }
 
-.copy {}
+.copy {
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
 
 
 /* media queries*/
