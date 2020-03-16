@@ -27,7 +27,7 @@ The web page contains :
 ## Setup/Installation Requirements
 
 * Clone this repository to your local machine if you wish to edit
-* Direct link to site https://nikola4work.github.io/Niko-ThemePortfolio/
+* Direct link to site https://nikola4work.github.io/Niko_Final_Portfolio/
 
 
 
