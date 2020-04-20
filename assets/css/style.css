@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
-
 
 /* navbar */
 
@@ -22,14 +22,12 @@ body {
     filter: grayscale(100%);
 }
 
-
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 
 #main {
     margin-left: 130px;
     max-width: 100%;
 }
-
 
 /* resume */
 
@@ -76,7 +74,6 @@ body {
 .gw {
     line-height: 2rem;
 }
-
 
 /* portfolio */
 
@@ -141,7 +138,6 @@ body {
     transform: scale(1.1);
 }
 
-
 /* contact*/
 
 #contact {
@@ -178,7 +174,6 @@ body {
     transform: scale(1.1);
 }
 
-
 /* about */
 
 .w3-jumbo {
@@ -207,7 +202,6 @@ body {
     font-size: 30px;
 }
 
-
 /* nav bar */
 
 a {
@@ -217,7 +211,6 @@ a {
 a:hover {
     transform: scale(1.1);
 }
-
 
 /* home */
 
@@ -229,7 +222,6 @@ a:hover {
     background-size: cover;
     max-width: 100%;
 }
-
 
 /* footer font awesome */
 
@@ -270,9 +262,7 @@ a:hover {
     text-align: center;
 }
 
-
 /* media queries*/
-
 
 /* Remove margins from "page content" on small screens */
 
