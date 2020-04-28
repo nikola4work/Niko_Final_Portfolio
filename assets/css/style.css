@@ -13,13 +13,16 @@ body {
     overflow: hidden;
 }
 
+.w3-bar-item {
+margin-top: 15px;
+}
+
+
 .profile-pic {
     border-radius: 4px;
     width: 100%;
     margin-bottom: 10px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    opacity: 45%;
 }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
